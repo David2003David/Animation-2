@@ -64,3 +64,23 @@ body
     font-style: initial;
     color: rgb(236, 40, 6);
 }
+@media(max-width: 570px)
+{
+    .conatiner{
+        font-size: 0.9em;
+    }
+}
+@media(max-width: 490px)
+{
+    .conatiner{
+        font-size: 0.7em;
+    }
+}
+@media(max-width: 380px)
+{
+    .conatiner{
+        position: absolute;
+        left: 170px;
+        font-size: 0.5em;   
+    }
+}
